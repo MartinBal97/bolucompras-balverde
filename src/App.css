@@ -9,17 +9,27 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    -webkit-animation: App-logo-spin infinite 20s linear;
+            animation: App-logo-spin infinite 20s linear;
   }
 }
 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -28,11 +38,79 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@-webkit-keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
+
+@keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+/**************************************/
+#root {
+  background-color: #464646;
+  color: #fff;
+}
+
+/*****ESTILOS ITEM COUNT *********/
+.contenedorItemCount {
+  background-color: #0e0e0e;
+  padding: 0.7rem;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.contenedorItemCount .contenedorBotones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenedorItemCount .contenedorBotones .btn {
+  border-radius: 50%;
+  background-color: #b3b3b3;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.contenedorItemCount .contenedorBotones .cantidadItems {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contenedorItemCount .btn-agregarCarrito {
+  margin-top: 5px;
+  background-color: #43d843;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  font-weight: bold;
+}
+
+/***********ESTILOS ITEM **************/
+.contenedorItem {
+  text-align: center;
+  margin-top: 3rem;
+}
+/*# sourceMappingURL=App.css.map */
