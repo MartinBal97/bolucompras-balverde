@@ -1,0 +1,44 @@
+.contenedorItem {
+  background-color: rgb(31, 32, 35);
+  margin: 5px;
+  display: inline-block;
+  width: 32%;
+  color: #fff;
+  text-decoration: none;
+
+  .imagenItem {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .itemCountEinfo {
+    
+    .nombreYprecio {
+      text-align: center;
+
+      .botonVerMas {
+        padding: 4px 8px;
+        background-color: rgb(14, 199, 82);
+        border-radius: 5px;
+        border: none;
+        color: white;
+        margin-bottom:1rem;
+      }
+        font: {
+          size: 20px;
+          weight: bold;
+          
+        }
+      }
+
+      .botonVerMas:active {
+        transform: scale(0.95);
+        transition: all .05s ease-in-out;
+      
+    }
+  
+  }
+  
+
+  
+}

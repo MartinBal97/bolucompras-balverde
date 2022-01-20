@@ -1,0 +1,38 @@
+
+  /*****ESTILOS ITEM COUNT *********/
+  .contenedorItemCount {
+    background-color: rgb(14, 14, 14);
+    padding: 0.7rem;
+    display: inline-block;
+    border-radius: 20px;
+
+    .contenedorBotones {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        .btn {
+            border-radius: 50%;
+            background-color: rgb(179, 179, 179);
+            color: #fff;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        .cantidadItems {
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    .btn-agregarCarrito {
+        margin-top:5px;
+        background-color: rgb(67, 216, 67);
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        padding: 3px;
+        font-weight: bold;
+    }
+  }

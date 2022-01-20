@@ -1,0 +1,19 @@
+.contenedorPrincipalDeItems {
+  background-color: #27282d;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .contenedorPrincipalDeItems {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contenedorPrincipalDeItems {
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=ItemListContainer.css.map */

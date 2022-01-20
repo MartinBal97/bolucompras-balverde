@@ -1,0 +1,20 @@
+.contenedorPrincipalDeItems {
+    background-color: rgb(39, 40, 45);
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 1rem; ///////////////////REVISAR EN EL FUTURO -- 19/1/2022
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .contenedorPrincipalDeItems {
+        max-width: 90%;
+       ;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .contenedorPrincipalDeItems {
+        max-width: 100%;
+       ;
+    }
+}
