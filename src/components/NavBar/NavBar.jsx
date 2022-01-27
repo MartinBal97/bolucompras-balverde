@@ -1,6 +1,8 @@
 import React from "react";
+import { NavLink } from 'react-router-dom'
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
 import CartWidget from "../CartWidget/CartWidget";
+import "../NavBar/NavBar.css"
 
 export default function NavBar() {
     return (
@@ -8,7 +10,8 @@ export default function NavBar() {
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 
                 <Container>
-                    <Navbar.Brand href="#home">BOLUCOMPRAS</Navbar.Brand>
+                
+                <NavLink className="titulo" to={`/`}> <Navbar.Brand href="#home">BOLUCOMPRAS</Navbar.Brand></NavLink>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
 
@@ -28,7 +31,7 @@ export default function NavBar() {
                         </Nav>
 
                         <Nav>
-                            <Nav.Link href="#home"> <CartWidget /> </Nav.Link>
+                            <Nav.Link  href="#home"> <CartWidget /> </Nav.Link>
                         </Nav>
 
                     </Navbar.Collapse>

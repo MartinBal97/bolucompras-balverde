@@ -18,3 +18,16 @@
        ;
     }
 }
+
+.spinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    padding: 5rem;
+}
+.spinner:first-child {
+    width: 100px;
+}

@@ -1,0 +1,8 @@
+[
+    {"id": "1", "stock": 12, "title": "Ajustador de anillos", "description": "Sirve para poder ajustar tus anillos a la medida de tu dedo", "price": "$ 0.50", "pictureUrl": "../img/ajustadorAnillos.png" },
+    {"id": "2", "stock": 15, "title": "Atrapa moscas", "description": "Trampa para moscas", "price": "$ 7", "pictureUrl": "../img/atrapa-moscas.jpg" },
+    {"id": "3", "stock": 9, "title": "Car tool emergency", "description": "En caso de que necesites cortar el cinturos de seguridad o romper el vidrio facilmente esta herramienta te ayudará", "price": "$ 3.50", "pictureUrl": "../img/cartool-emergency.jpg"},
+    {"id": "4", "stock": 4, "title": "Cortador de pizza", "description": "Cortador de pizza en forma de bicicleta", "price": "$ 4", "pictureUrl": "../img/cortador-pizza.jpg" },
+    {"id": "5", "stock": 7, "title": "Masajeador", "description": "Masajeador para la nuca.", "price": "$ 22", "pictureUrl": "../img/masajeador.jpg" },
+    {"id": "6", "stock": 14, "title": "Paralante de ducha", "description": "Parlante que se puede pegar a la pared de tu baño y se puede mojar", "price": "$ 12", "pictureUrl": "../img/parlante-ducha.jpg" }
+]

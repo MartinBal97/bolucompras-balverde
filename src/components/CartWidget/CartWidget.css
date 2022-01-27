@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=CartWidget.css.map */
+.btn-primary {
+  background-color: #1af56a !important;
+  border-color: #1af56a !important;
+}
+
+.carrito {
+  width: 27px !important;
+}
+/*# sourceMappingURL=CartWidget.css.map */

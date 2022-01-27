@@ -2,35 +2,102 @@
   background-color: #1f2023;
   margin: 5px;
   display: inline-block;
-  width: 32%;
-  color: #fff;
-  text-decoration: none;
+  -webkit-box-shadow: 6px 6px 12px rgba(197, 197, 197, 0.1), -6px -6px 12px rgba(255, 255, 255, 0.2);
+          box-shadow: 6px 6px 12px rgba(197, 197, 197, 0.1), -6px -6px 12px rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(197, 197, 197, 0.3);
+  border-radius: 5px;
 }
 
 .contenedorItem .imagenItem {
   width: 100%;
-  padding: 1em;
+  border-radius: 5px;
 }
 
 .contenedorItem .itemCountEinfo .nombreYprecio {
   text-align: center;
-  font-size: 20px;
-  font-weight: bold;
+  /* From cssbuttons.io by @adamgiebl */
+}
+
+.contenedorItem .itemCountEinfo .nombreYprecio .itemNombre {
+  margin-top: 1rem;
+}
+
+.contenedorItem .itemCountEinfo .nombreYprecio .itemPrecio,
+.contenedorItem .itemCountEinfo .nombreYprecio .itemNombre {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 5px !important;
+  padding: 0 7px;
 }
 
 .contenedorItem .itemCountEinfo .nombreYprecio .botonVerMas {
-  padding: 4px 8px;
-  background-color: #0ec752;
-  border-radius: 5px;
-  border: none;
-  color: white;
+  background-color: #1f2023;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border: 3px solid #1af56a;
+  border-radius: 2px;
+  position: relative;
+  color: #1af56a;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  z-index: 1;
   margin-bottom: 1rem;
 }
 
-.contenedorItem .itemCountEinfo .botonVerMas:active {
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
-  -webkit-transition: all .05s ease-in-out;
-  transition: all .05s ease-in-out;
+.contenedorItem .itemCountEinfo .nombreYprecio .botonVerMas:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #1af56a;
+  z-index: -1;
+}
+
+.contenedorItem .itemCountEinfo .nombreYprecio .botonVerMas:hover,
+.contenedorItem .itemCountEinfo .nombreYprecio .botonVerMas:focus {
+  color: white;
+}
+
+.contenedorItem .itemCountEinfo .nombreYprecio .botonVerMas:hover:before,
+.contenedorItem .itemCountEinfo .nombreYprecio .botonVerMas:focus:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.contenedorItem .itemCountEinfo .nombreYprecio .botonVerMas:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+@media screen and (max-width: 767px) {
+  .contenedorItem .contenedorItem {
+    margin: 3px;
+  }
+  .contenedorItem .contenedorItem .imagenItem {
+    padding: 0.5em;
+  }
+  .contenedorItem .botonVerMas {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contenedorItem .itemPrecio,
+  .contenedorItem .itemNombre {
+    font-size: 17px;
+  }
 }
 /*# sourceMappingURL=Item.css.map */

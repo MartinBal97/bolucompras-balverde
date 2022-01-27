@@ -1,0 +1,37 @@
+.itemDetailContainer {
+  background-color: #1f2023;
+  color: #fff;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.itemDetailContainer .itemDetail {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 3px 3px 6px rgba(197, 197, 197, 0.1), -3px -3px 6px rgba(255, 255, 255, 0.2);
+          box-shadow: 3px 3px 6px rgba(197, 197, 197, 0.1), -3px -3px 6px rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(197, 197, 197, 0.3);
+  border-radius: 5px;
+}
+
+.itemDetailContainer .itemDetail .imagenItem {
+  width: 50%;
+}
+
+.itemDetailContainer .itemDetail .informacionDeCompra {
+  width: 50%;
+  padding: 1rem;
+}
+
+.itemDetailContainer .itemDetail .informacionDeCompra .tituloInfoCompra {
+  margin: 10px;
+}
+/*# sourceMappingURL=ItemDetail.css.map */

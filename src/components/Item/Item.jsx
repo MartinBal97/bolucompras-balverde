@@ -1,27 +1,29 @@
 import React from "react"
 import "../Item/Item.css"
-//import ItemCount from "../ItemCount/ItemCount"
-//import atrapaMoscas from "../../img/atrapa-moscas.jpg"
+//import ItemDetailContainer from "../ItemDetailContainer/ItemDetailContainer"
+import { Link } from 'react-router-dom'
 
-export default function Item({ item }) {
 
-   /* <div className="itemCount">
-        <ItemCount stock={item.stock} />
-    </div>*/
+export default function Item({ prod }) {
 
     return (
         <>
-        <div className="contenedorItem">
-                <img className="imagenItem" src={item.pictureUrl} alt=""></img>
-                <div className="itemCountEinfo">
-                    <div className="nombreYprecio">
-                        <p className="itemMombre">{item.title}</p>
-                        <p className="itemPrecio">Precio: ${item.price}</p>
-                        <button className="botonVerMas">Ver más</button>
-                    </div>
+            <div className="contenedorItem">
+                <div className="contenidoItem">
 
-                </div>
-        </div>           
+                    <img className="imagenItem" src={prod.pictureUrl} alt=""></img>
+                   
+                    <div className="itemCountEinfo">
+
+                        <div className="nombreYprecio">
+                            <p className="itemNombre">{prod.title}</p>
+                            <p className="itemPrecio">Precio: {prod.price}</p>
+                            <Link to={`/producto/${prod.id}`}><button className="botonVerMas">Ver más</button></Link>
+                        </div>
+
+                    </div>
+                </div>    
+            </div>           
         </>
     )
 }
