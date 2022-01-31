@@ -20,19 +20,15 @@ export default function ItemListContainer() {
 
     return (
         <>
-            {(productos.length > 0)?
-            <>
-                <div className="contenedorPrincipalDeItems">
-                    <ItemList prod={prod} />
-                </div>
-            </>
-            :
-            <>
-                <div className="spinner">
-                    <Spinner animation="border" variant="success" />
-                </div>
-            </>
-            }
+        {(prod.length > 0)?
+            <div className="contenedorPrincipalDeItems">
+                <ItemList prod={prod} />
+            </div>
+        :
+            <div className="spinner">
+                <Spinner animation="border" variant="success" />
+            </div>
+        }
         </>
     )
 }

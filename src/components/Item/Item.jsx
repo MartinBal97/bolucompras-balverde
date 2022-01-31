@@ -11,7 +11,7 @@ export default function Item({ prod }) {
             <div className="contenedorItem">
                 <div className="contenidoItem">
 
-                    <img className="imagenItem" src={prod.pictureUrl} alt=""></img>
+                    <img className="imagenItem" src={prod.pictureUrl} alt="img"></img>
                    
                     <div className="itemCountEinfo">
 

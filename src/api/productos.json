@@ -1,8 +1,128 @@
-[
-    {"id": "1", "stock": 12, "title": "Ajustador de anillos", "description": "Sirve para poder ajustar tus anillos a la medida de tu dedo", "price": "$ 0.50", "pictureUrl": "../img/ajustadorAnillos.png" },
-    {"id": "2", "stock": 15, "title": "Atrapa moscas", "description": "Trampa para moscas", "price": "$ 7", "pictureUrl": "../img/atrapa-moscas.jpg" },
-    {"id": "3", "stock": 9, "title": "Car tool emergency", "description": "En caso de que necesites cortar el cinturos de seguridad o romper el vidrio facilmente esta herramienta te ayudará", "price": "$ 3.50", "pictureUrl": "../img/cartool-emergency.jpg"},
-    {"id": "4", "stock": 4, "title": "Cortador de pizza", "description": "Cortador de pizza en forma de bicicleta", "price": "$ 4", "pictureUrl": "../img/cortador-pizza.jpg" },
-    {"id": "5", "stock": 7, "title": "Masajeador", "description": "Masajeador para la nuca.", "price": "$ 22", "pictureUrl": "../img/masajeador.jpg" },
-    {"id": "6", "stock": 14, "title": "Paralante de ducha", "description": "Parlante que se puede pegar a la pared de tu baño y se puede mojar", "price": "$ 12", "pictureUrl": "../img/parlante-ducha.jpg" }
+[{
+        "id": "1",
+        "categoria": "",
+        "stock": 12,
+        "title": "Ajustador de anillos",
+        "description": "Sirve para poder ajustar tus anillos a la medida de tu dedo.",
+        "price": "$ 0.50",
+        "pictureUrl": "../img/ajustadorAnillos.png"
+    },
+    {
+        "id": "2",
+        "categoria": "tech",
+        "stock": 15,
+        "title": "Atrapa moscas",
+        "description": "Trampa para moscas.",
+        "price": "$ 7",
+        "pictureUrl": "../img/atrapa-moscas.jpg"
+    },
+    {
+        "id": "3",
+        "categoria": "",
+        "stock": 9,
+        "title": "Car tool emergency",
+        "description": "En caso de que necesites cortar el cinturos de seguridad o romper el vidrio facilmente esta herramienta te ayudará.",
+        "price": "$ 3.50",
+        "pictureUrl": "../img/cartool-emergency.jpg"
+    },
+    {
+        "id": "4",
+        "categoria": "hogar",
+        "stock": 4,
+        "title": "Cortador de pizza",
+        "description": "Cortador de pizza en forma de bicicleta.",
+        "price": "$ 4",
+        "pictureUrl": "../img/cortador-pizza.jpg"
+    },
+    {
+        "id": "5",
+        "categoria": "tech",
+        "stock": 7,
+        "title": "Masajeador",
+        "description": "Masajeador para la nuca.",
+        "price": "$ 22",
+        "pictureUrl": "../img/masajeador.jpg"
+    },
+    {
+        "id": "6",
+        "categoria": "tech",
+        "stock": 14,
+        "title": "Paralante de ducha",
+        "description": "Parlante que se puede pegar a la pared de tu baño y se puede mojar.",
+        "price": "$ 12",
+        "pictureUrl": "../img/parlante-ducha.jpg"
+    },
+    {
+        "id": "7",
+        "categoria": "tech",
+        "stock": 5,
+        "title": "Cargador inteligente",
+        "description": "Pequeña plataforma para cargar todos tus dispocitivos que usas a diario.",
+        "price": "$ 12",
+        "pictureUrl": "../img/cargador-accesorios.jpg"
+    },
+    {
+        "id": "8",
+        "categoria": "",
+        "stock": 30,
+        "title": "Alivia dedos",
+        "description": "Herramienta que ayuda a que tus uñas no se encarnen.",
+        "price": "$ 3",
+        "pictureUrl": "../img/unias-encarnadas.jpg"
+    },
+    {
+        "id": "9",
+        "categoria": "",
+        "stock": 8,
+        "title": "Super imán",
+        "description": "Tu nueva caña de pescar, pescar metales, pero para pesca magnética se necesita un imán potente.",
+        "price": "$ 24",
+        "pictureUrl": "../img/super-iman.jpg"
+    },
+    {
+        "id": "10",
+        "categoria": "hogar",
+        "stock": 10,
+        "title": "KneeBlades",
+        "description": "Herramienta para poder trabajar arrodillado.",
+        "price": "$ 10",
+        "pictureUrl": "../img/rodillas-rueditas.jpg"
+    },
+    {
+        "id": "11",
+        "categoria": "hogar",
+        "stock": 11,
+        "title": "Escritorio de cama",
+        "description": "Escritorio o mesa para usar en la cama.",
+        "price": "$ 55",
+        "pictureUrl": "../img/escritorio-cama.png"
+    },
+    {
+        "id": "12",
+        "categoria": "hogar",
+        "stock": 7,
+        "title": "Posa tazas",
+        "description": "Sirve para posar vasos o tazas en el sillon con la seguridad de que no se caiga.",
+        "price": "$ 5",
+        "pictureUrl": "../img/posavasos-sillones.jpg"
+    },
+    {
+        "id": "13",
+        "categoria": "medioambiente",
+        "stock": 21,
+        "title": "Bolsos",
+        "description": "Bolsos hechos con plastico reciclado, son impermeables.",
+        "price": "$ 7",
+        "pictureUrl": "../img/bolsos-plastico.png"
+    },
+    {
+        "id": "14",
+        "categoria": "medioambiente",
+        "stock": 17,
+        "title": "Aros",
+        "description": "Aros hechos con plastico reciclado.",
+        "price": "$ 4",
+        "pictureUrl": "../img/aritos-plastico.jpg"
+    }
+
 ]
