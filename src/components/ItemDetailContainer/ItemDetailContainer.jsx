@@ -4,20 +4,17 @@ import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from 'react-router-dom'
 import productos from "../../api/productos.json"
 
-
-
 export default function ItemDetailContainer() {
 
-    
     const [prod, setProd] = useState([])
     const {id} = useParams()
 
     useEffect(() => {
         const GetItem = new Promise((resolve, reject) => {
-
             setTimeout(() => {
-                const producto = productos.filter((e) => e.id === id)
+                const producto = productos.filter((elemento) => elemento.id === id)
                 resolve(producto[0])
+               
             }, 2000);
         })
 
@@ -29,13 +26,8 @@ export default function ItemDetailContainer() {
             setProd(err)
         })
 
-    }, []);
+    }, );
 
     return <ItemDetail prod={prod} />
-        
-            
-             
-    
-       
-    
+
 }

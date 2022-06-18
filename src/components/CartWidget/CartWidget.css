@@ -1,9 +1,11 @@
 .btn-primary {
   background-color: #1af56a !important;
   border-color: #1af56a !important;
+  -webkit-box-shadow: rgba(26, 245, 106, 0.4) 2.5px 2.5px, rgba(26, 245, 106, 0.3) 5px 5px, rgba(26, 245, 106, 0.2) 7.5px 7.5px, rgba(26, 245, 106, 0.1) 10px 10px, rgba(26, 245, 106, 0.05) 12.5px 12.5px;
+          box-shadow: rgba(26, 245, 106, 0.4) 2.5px 2.5px, rgba(26, 245, 106, 0.3) 5px 5px, rgba(26, 245, 106, 0.2) 7.5px 7.5px, rgba(26, 245, 106, 0.1) 10px 10px, rgba(26, 245, 106, 0.05) 12.5px 12.5px;
 }
 
 .carrito {
-  width: 27px !important;
+  width: 25px !important;
 }
 /*# sourceMappingURL=CartWidget.css.map */

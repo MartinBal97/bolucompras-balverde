@@ -1,4 +1,8 @@
-.titulo {
+.contenedorNavBar {
+  border: 1px solid rgba(247, 247, 247, 0.1);
+}
+
+.contenedorNavBar .titulo {
   text-decoration: none;
 }
 /*# sourceMappingURL=NavBar.css.map */

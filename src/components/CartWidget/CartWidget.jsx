@@ -8,7 +8,7 @@ export default function CartWidget() {
 
     return (
         <>
-         <button className="btn btn-primary"><img className="carrito" src={fotoCarrito} alt="carrito"/></button>
+         <button className="btn btn-primary"><img className="carrito" src={fotoCarrito} alt="carrito"/><span className='badge'>0</span></button>
         </>
     )
 }

@@ -1,8 +1,11 @@
 .contenedorPrincipalDeItems {
-  background-color: #27282d;
+  background-color: #1E2528;
   max-width: 80%;
   margin: 0 auto;
   padding: 1rem;
+  border-left: 1px solid rgba(247, 247, 247, 0.1);
+  border-right: 1px solid rgba(247, 247, 247, 0.1);
+  border-bottom: 1px solid rgba(247, 247, 247, 0.1);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {

@@ -1,9 +1,10 @@
 import React, {useState} from "react";
+import {Link} from "react-router-dom"
 import "../ItemDetail/ItemDetail.css"
 import "../ItemCount/ItemCount"
 import ItemCount from "../ItemCount/ItemCount";
 
-export default function ItemDetail({ prod }) {
+export default function ItemDetail({ prod, added }) {
 
     const [muestraItemCount, setMuestraItemCount] = useState([true])
 
@@ -19,7 +20,6 @@ export default function ItemDetail({ prod }) {
     return (
         <div className="itemDetailContainer">
             <div className="itemDetail">
-
                 <img className="imagenItem" src={prod.pictureUrl} alt="" />
 
                 <div className="informacionDeCompra">
@@ -31,10 +31,9 @@ export default function ItemDetail({ prod }) {
                     (muestraItemCount) ?
                         <ItemCount onAdd={onAdd} stock={prod.stock} />
                     :
-                        <button className="btn btn-primary"> Terminar compra </button>
+                        <Link to='/cart'><button className="btn btn-primary"> Terminar compra </button></Link> 
                     }       
                 </div>
-
             </div> 
         </div>
     )

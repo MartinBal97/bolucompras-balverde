@@ -8,8 +8,6 @@ export default function ItemCount({stock, onAdd}) {
     function restar() {if (cantidad > 0) {setCantidad(cantidad - 1) }}
     function sumar() {if (cantidad < stock) { setCantidad(cantidad + 1)}}
 
-    
-
     return (
         
         <div className="contenedorItemCount" >

@@ -1,17 +1,19 @@
 .contenedorItem {
-  background-color: rgb(31, 32, 35);
+  background-color: #3A504B;
   margin: 5px;
   display: inline-block;
-  box-shadow: 6px 6px 12px rgba(197, 197, 197, 0.1),
-    -6px -6px 12px rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(197, 197, 197, 0.3);
-  border-radius: 5px;
-
+  border-radius: 20px;
+  box-shadow: rgba(58, 80, 66, 0.4) 5px 5px, 
+              rgba(58, 80, 66, 0.3) 10px 10px, 
+              rgba(58, 80, 66, 0.2) 15px 15px, 
+              rgba(58, 80, 66, 0.1) 20px 20px, 
+              rgba(58, 80, 66, 0.05) 25px 25px; 
 
   .imagenItem {
     width: 100%;
-   // padding: 0.8em;
-    border-radius: 5px;
+    padding: 0.8em;
+    border-radius: 25px;
   }
 
   .itemCountEinfo {
@@ -34,7 +36,7 @@
 
       /* From cssbuttons.io by @adamgiebl */
       .botonVerMas {
-        background-color: rgb(31, 32, 35);
+        background-color: rgb(58, 80, 75);
         font-size: 18px;
         letter-spacing: 2px;
         text-transform: uppercase;
